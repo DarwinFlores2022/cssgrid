@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(26, 36, 59);
+    color: wheat;
+}
+
+header,
+footer,
+.left,
+.center,
+.right {
+    font-size: 30px;
+    padding: 5%;
+    text-align: center;
+}
+
+footer {
+    color: rgb(241, 244, 248);
+    background-color: rgb(40, 111, 87);
+    width: 100%;
+}
+
+.left {
+    flex: 1 1 auto;
+    background-color: #dc4d4d;
+}
+
+.center {
+    flex: 1 1 auto;
+    background-color: yellow;
+}
+
+.right {
+    flex: 1 1 auto;
+    background-color: #e8a2af;
+}

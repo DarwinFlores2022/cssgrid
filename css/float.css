@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(218, 245, 245);
+}
+
+header {
+    background-color: rgb(26, 36, 59);
+    color: wheat;
+}
+
+header,
+footer,
+.left,
+.center,
+.right {
+    font-size: 30px;
+    padding: 5%;
+    text-align: center;
+}
+
+.left,
+.center,
+.right {
+    color: white;
+    width: 33.33%;
+    border: rgb(51, 42, 42) solid 3px;
+    background-color: rgb(40, 52, 119);
+}
+
+footer {
+    color: rgb(241, 244, 248);
+    background-color: rgb(40, 111, 87);
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    /* necesario para la class .center */
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.center {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+    padding: 5px;
+    color: white;
+}
